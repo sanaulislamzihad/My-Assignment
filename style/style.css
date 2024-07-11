@@ -68,7 +68,7 @@ nav h3 {
 }
 
 .resume-btn:hover {
-    background-color: #FD6E0A;
+    background-color: rgb(14, 180, 14);
     color: #f1f1f1;
 }
 
@@ -120,12 +120,12 @@ nav h3 {
 }
 
 .banner-content .btn {
-
+    background-color:black;
     margin-top: 32px;
     border: 2px solid #0D1321;
     border-radius: 5px;
     padding: 16px 32px;
-    color: #0D1321;
+    color: white;
     font-size: 20px;
     font-weight: 600;
     -webkit-border-radius: 5px;
@@ -135,11 +135,11 @@ nav h3 {
 }
 
 .banner-content a {
-    color: #0D1321;
+    color: white;
 }
 
 .banner-content .btn:hover {
-    background-color: #FD6E0A;
+    background-color: rgb(14, 180, 14);
     color: #f1f1f1;
 
 }
@@ -489,7 +489,6 @@ nav h3 {
     width: 1140px;
     height: 313px;
     border-radius: 16px;
-    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url("../assets/handshake.jpg"); */
     background-image: linear-gradient(45deg, rgba(7, 2, 17, 0.274), rgba(7, 2, 17, 0.253) 100%), url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -558,7 +557,7 @@ nav h3 {
 }
 
 .support-input button:hover {
-    background: #FD6E0A;
+    background-color: rgb(14, 180, 14);
     color: #f1f1f1;
 }
 
