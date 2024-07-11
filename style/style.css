@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* common css start here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Azeret Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+span {
+    color: #FD6E0A;
+}
+
+button {
+    border: none;
+}
+
+/* common css end here */
+
+
+/* nav+banner style start here */
+nav {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 130px;
+    margin: 0 auto;
+}
+
+nav h3 {
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 33px;
+}
+
+.resume-btn {
+    background-color: white;
+    border: 2px solid #0D1321;
+    border-radius: 5px;
+    padding: 16px 32px;
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.resume-btn:hover {
+    background-color: #FD6E0A;
+    color: #f1f1f1;
+}
+
+.banner {
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 630px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner-content img {
+    padding-top: 26px;
+}
+
+.banner-title {
+    width: 998px;
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+}
+
+.banner-title .dev {
+    color: #FD6E0A;
+    margin: 0 auto;
+}
+
+.banner-content p {
+    width: 998px;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.banner-content .btn {
+
+    margin-top: 32px;
+    border: 2px solid #0D1321;
+    border-radius: 5px;
+    padding: 16px 32px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.banner-content a {
+    color: #0D1321;
+}
+
+.banner-content .btn:hover {
+    background-color: #FD6E0A;
+    color: #f1f1f1;
+
+}
+
+/* nav+banner style end here */
+
+/* Development section style starts here */
+.development-container {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.development-title-container {
+    padding: 48px;
+    padding-top: 0;
+}
+
+.development-title {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+
+.development-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 48px;
+    margin-bottom: 32px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 8px;
+    padding: 48px;
+    margin-bottom: 32px;
+}
+
+.card-content {
+    width: 60%;
+}
+
+.card-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.card-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.card button {
+    margin-top: 32px;
+    border: 2px solid #0D1321;
+    border-radius: 5px;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 600;
+    display: ruby-text;
+}
+
+
+.card a {
+    color: #0D1321;
+}
+
+.card2 button {
+    margin-top: 32px;
+    border: 2px solid #0D1321;
+    border-radius: 5px;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 600;
+    display: ruby-text;
+}
+
+.card2 a {
+    color: #0D1321;
+}
+
+/* Development section style ends here */
+
+
+/* video section style starts here  */
+.video-container {
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 150px;
+}
+
+.video-title-container {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-title-container h2 {
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.video-title-container p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.video {
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 48px;
+}
+
+.video iframe {
+    margin: 32px auto;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* video section style starts here  */
+
+/* Target section style starts here */
+.target-section {
+    width: 1140px;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.target-title {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.target-title h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.target-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.target-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* target-content-1 start*/
+.target-content-1 {
+    width: 364;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin-right: 24px;
+}
+
+.target-content-1 h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px 8px 0px;
+}
+
+.target-content-1 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.target-content-1 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* target-content-2 start*/
+.target-content-2 {
+    width: 364;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    margin-right: 24px;
+}
+
+.target-content-2 h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px 8px 0px;
+}
+
+.target-content-2 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.target-content-2 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* target-content-3 start */
+.target-content-3 {
+    width: 364;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    margin-right: 0;
+}
+
+.target-content-3 h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px 8px 0px;
+}
+
+.target-content-3 p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.target-content-3 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* Target section style ends here */
+
+/* support section style starts here */
+.support-section {
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url("../assets/handshake.jpg"); */
+    background-image: linear-gradient(45deg, rgba(7, 2, 17, 0.274), rgba(7, 2, 17, 0.253) 100%), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 64px 48px;
+    margin-bottom: 80px;
+}
+
+.support-title h2 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-section p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.support-input input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 2px solid #0D1321;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgb(255, 255, 255);
+    padding: 14px;
+}
+
+.support-input button {
+    color: #0D1321;
+    border: 2px solid #0D1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+}
+
+.support-input button:hover {
+    background: #FD6E0A;
+    color: #f1f1f1;
+}
+
+/* support section style ends here */
+
+/* footer section style starts here */
+.footer {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+}
+
+.footer-text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-size: cover;
+    transition: transform 0.3s ease;
+}
+
+.facebook {
+    background-image: url(../assets/facebook.png);
+}
+
+.github {
+    background-image: url(../assets/github.png);
+}
+
+.linkedin {
+    background-image: url(../assets/linkedin-icon\ 1.png);
+}
+
+/* footer section style ends here */
